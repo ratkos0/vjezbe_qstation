@@ -60,3 +60,23 @@ o1 = Osoba("Ratko", "Sopic", 2709000100001, 193, 83, 22)
 
 o1.Info()
 """
+
+
+"""class Trougao:
+    def __init__(self, a=int, b=int, c=int):
+        self.a = a
+        self.b = b
+        self.c = c
+
+    def Info(self):
+        print("Stranica a je:", self.a , " cm")
+        print("Stranica b je:", self.b , " cm")
+        print("Stranica c je:", self.c , " cm")
+
+
+p1_a = int(input("Unesite stranicu a trougla."))
+p1_b = int(input("Unesite stranicu b trougla"))
+p1_c = int(input("Unesite stranicu c trougla"))
+
+pt1 = Trougao(p1_a, p1_b, p1_c)
+pt1.Info()"""
