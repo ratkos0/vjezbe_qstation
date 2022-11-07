@@ -62,7 +62,9 @@ o1.Info()
 """
 
 
-"""class Trougao:
+
+"""
+class Trougao:
     def __init__(self, a=int, b=int, c=int):
         self.a = a
         self.b = b
@@ -74,9 +76,137 @@ o1.Info()
         print("Stranica c je:", self.c , " cm")
 
 
-p1_a = int(input("Unesite stranicu a trougla."))
-p1_b = int(input("Unesite stranicu b trougla"))
-p1_c = int(input("Unesite stranicu c trougla"))
+x = int(input("Koliko trouglova zelite da unesete(max=5)"))
+if x == 5:
+    print("Prvi prougao...")
+    p2_a = int(input("Unesite stranicu a trougla."))
+    p2_b = int(input("Unesite stranicu b trougla"))
+    p2_c = int(input("Unesite stranicu c trougla"))
+    pt2 = Trougao(p2_a, p2_b, p2_c)
 
-pt1 = Trougao(p1_a, p1_b, p1_c)
-pt1.Info()"""
+    print("Drugi trougao...")
+    p3_a = int(input("Unesite stranicu a trougla."))
+    p3_b = int(input("Unesite stranicu b trougla"))
+    p3_c = int(input("Unesite stranicu c trougla"))
+    pt3 = Trougao(p3_a, p3_b, p3_c)
+
+    print("Treci trougao...")
+    p4_a = int(input("Unesite stranicu a trougla."))
+    p4_b = int(input("Unesite stranicu b trougla"))
+    p4_c = int(input("Unesite stranicu c trougla"))
+    pt4 = Trougao(p4_a, p4_b, p4_c)
+
+    print("Cetvrti trougao...")
+    p5_a = int(input("Unesite stranicu a trougla."))
+    p5_b = int(input("Unesite stranicu b trougla"))
+    p5_c = int(input("Unesite stranicu c trougla"))
+    pt5 = Trougao(p5_a, p5_b, p5_c)
+
+    print("Peti trougao...")
+    p6_a = int(input("Unesite stranicu a trougla."))
+    p6_b = int(input("Unesite stranicu b trougla"))
+    p6_c = int(input("Unesite stranicu c trougla"))
+    pt6 = Trougao(p6_a, p6_b, p6_c)
+    print("-------------------")
+    pt2.Info()
+    print("-------------------")
+    pt3.Info()
+    print("-------------------")
+    pt4.Info()
+    print("-------------------")
+    pt5.Info()
+    print("-------------------")
+    pt6.Info()
+    print("-------------------")
+
+
+elif x == 4:
+    print("Prvi prougao...")
+    p2_a = int(input("Unesite stranicu a trougla."))
+    p2_b = int(input("Unesite stranicu b trougla"))
+    p2_c = int(input("Unesite stranicu c trougla"))
+    pt2 = Trougao(p2_a, p2_b, p2_c)
+
+    print("Drugi trougao...")
+    p3_a = int(input("Unesite stranicu a trougla."))
+    p3_b = int(input("Unesite stranicu b trougla"))
+    p3_c = int(input("Unesite stranicu c trougla"))
+    pt3 = Trougao(p3_a, p3_b, p3_c)
+
+    print("Treci trougao...")
+    p4_a = int(input("Unesite stranicu a trougla."))
+    p4_b = int(input("Unesite stranicu b trougla"))
+    p4_c = int(input("Unesite stranicu c trougla"))
+    pt4 = Trougao(p4_a, p4_b, p4_c)
+
+    print("Cetvrti trougao...")
+    p5_a = int(input("Unesite stranicu a trougla."))
+    p5_b = int(input("Unesite stranicu b trougla"))
+    p5_c = int(input("Unesite stranicu c trougla"))
+    pt5 = Trougao(p5_a, p5_b, p5_c)
+    print("-------------------")
+    pt2.Info()
+    print("-------------------")
+    pt3.Info()
+    print("-------------------")
+    pt4.Info()
+    print("-------------------")
+    pt5.Info()
+    print("-------------------")
+
+elif x == 3:
+    print("Prvi prougao...")
+    p2_a = int(input("Unesite stranicu a trougla."))
+    p2_b = int(input("Unesite stranicu b trougla"))
+    p2_c = int(input("Unesite stranicu c trougla"))
+    pt2 = Trougao(p2_a, p2_b, p2_c)
+
+    print("Drugi trougao...")
+    p3_a = int(input("Unesite stranicu a trougla."))
+    p3_b = int(input("Unesite stranicu b trougla"))
+    p3_c = int(input("Unesite stranicu c trougla"))
+    pt3 = Trougao(p3_a, p3_b, p3_c)
+
+    print("Treci trougao...")
+    p4_a = int(input("Unesite stranicu a trougla."))
+    p4_b = int(input("Unesite stranicu b trougla"))
+    p4_c = int(input("Unesite stranicu c trougla"))
+    pt4 = Trougao(p4_a, p4_b, p4_c)
+    print("-------------------")
+    pt2.Info()
+    print("-------------------")
+    pt3.Info()
+    print("-------------------")
+    pt4.Info()
+    print("-------------------")
+
+
+elif x == 2:
+    print("Prvi prougao...")
+    p2_a = int(input("Unesite stranicu a trougla."))
+    p2_b = int(input("Unesite stranicu b trougla"))
+    p2_c = int(input("Unesite stranicu c trougla"))
+    pt2 = Trougao(p2_a, p2_b, p2_c)
+
+    print("Drugi trougao...")
+    p3_a = int(input("Unesite stranicu a trougla."))
+    p3_b = int(input("Unesite stranicu b trougla"))
+    p3_c = int(input("Unesite stranicu c trougla"))
+    pt3 = Trougao(p3_a, p3_b, p3_c)
+    print("-------------------")
+    pt2.Info()
+    print("-------------------")
+    pt3.Info()
+    print("-------------------")
+
+
+elif x == 1:
+    print("Prvi prougao...")
+    p2_a = int(input("Unesite stranicu a trougla."))
+    p2_b = int(input("Unesite stranicu b trougla"))
+    p2_c = int(input("Unesite stranicu c trougla"))
+    pt2 = Trougao(p2_a, p2_b, p2_c)
+    print("-------------------")
+    pt2.Info()
+    print("-------------------")
+"""
